@@ -1,7 +1,7 @@
 module.exports = grammar({
     name: 'xml',
 
-    extras: $ => [],
+    extras: $ => [/\s/],
 
     inline: $ => [
         $._eq
